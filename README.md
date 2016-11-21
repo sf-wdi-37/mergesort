@@ -31,7 +31,7 @@ Merge sort is the first fast, powerful sorting algorithm that you will encounter
 - describe the purpose of big-`O()` notation.
 
 
-## Recursion
+## Recursion Review
 
 With [factorial](https://en.wikipedia.org/wiki/Factorial)! The notation `n!` (pronounced "`n` factorial") is defined for whole numbers greater than or equal to `0` -- it means the result of multiplying `n * (n-1) * (n-2) * ... * 3 * 2 * 1`.  You can probably think of an iterative way to write this with a `for` loop, but a recursive version can give us a little insight into recursion.  Here's some code to define a recursive `factorial` function:
 
@@ -117,7 +117,7 @@ There are usually TWO algorithms that work together to accomplish a merge sort:
   *  How will you go from the solutions for subproblems, to a solution for the overall problem?
 
 1. Next, tackle `merge`. This isn't recursive, but edge cases can make it tricky!
-
+<!--
 ## Recursion Trees
 
 When dealing with recursion, we often use a tree structure to make an educated guess about Big O runtime.  Here's one for `factorial`:
@@ -134,6 +134,7 @@ Here's a merge sort recursion tree:
 
 The number of levels is log<sub>2</sub>n, and the work required at each level adds up to O(n).  Recursion trees aren't foolproof - this is a "hand wavey" way to show that the Big O runtime of merge sort is `O(n log(n))`.   Since the work at each level is very, very similar, the recursion tree gives us the correct big O for merge sort!
 
+-->
 ## Additional Resources
 
 * [Merge sort on wikipedia](https://en.wikipedia.org/wiki/Merge_sort)
