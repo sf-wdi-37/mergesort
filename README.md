@@ -143,7 +143,7 @@ To try to figure this out, let's try a few methods.
 
 1. On the graph below what are the realistic possibilities for the runtime of this algorithm?
 
-  ![Computational complexity](https://upload.wikimedia.org/wikipedia/commons/7/7e/Comparison_computational_complexity.svg)
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Comparison_computational_complexity.svg" alt="complexity" style="width: 300px;"/>
 
 2. How "tall" is the diagram below? That is, how many times do we divide and how many times do we "conquer"?
 
