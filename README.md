@@ -99,7 +99,7 @@ fibonacci(n) {
 1. What recursive subproblem(s) are solved?
 1. What processing turns the answers from the subproblem(s) into an answer for the overall problem?
 
-Want something a little less obvious? Think about the same three questions for this binary search pseudocode:
+Now a more challenging example. Think about the same three questions for this binary search pseudocode:
 
 ```
 binarySearch(array, target, low, high) {
