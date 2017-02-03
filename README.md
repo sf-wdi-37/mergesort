@@ -18,8 +18,8 @@ Merge sort is the first fast, powerful sorting algorithm that you will encounter
 <!-- specific/measurable goal for students to achieve -->
 *After this workshop, developers will be able to:*
 
-- explain three steps to create a recursive algorithm.
-- describe the merge sort algorithm and a merge algorithm.
+- explain the three parts of a recursive algorithm.
+- describe the merge algorithm and a merge sort algorithm.
 - write a pseudocode version of merge sort and a draft version of merge sort in Ruby.
 - determine the runtime (in big-`O()` notation) for merge sort.
 
@@ -136,6 +136,21 @@ There are usually TWO algorithms that work together to accomplish a merge sort:
 -  A merge sort algorithm that takes an array, splits it into two halves, recursively merge sorts both halves, and finally uses the merge algorithm to put them back together into one sorted array.
 
 > Note: iterative merge sort is possible, but it's *much* harder. Please work on a recursive version!
+
+## Runtime efficiency analysis
+
+To try to figure this out, let's try a few methods.
+
+1. On the graph below what are the realistic possibilities for the runtime of this algorithm?
+
+  ![Computational complexity](https://upload.wikimedia.org/wikipedia/commons/7/7e/Comparison_computational_complexity.svg)
+
+2. How "tall" is the diagram below? That is, how many times do we divide and how many times do we "conquer"?
+
+  How "wide" is it? That is, how many steps are, roughly, there in each divide/conquer step?
+
+  ![Merge Sort visualization](https://webdocs.cs.ualberta.ca/~holte/T26/Lecture6Fig6.gif)
+
 
 ### Make your own merge sort implementation!
 
