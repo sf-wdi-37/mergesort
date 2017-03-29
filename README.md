@@ -51,7 +51,7 @@ Let's use this example to illustrate the three steps of a recursive algorithm:
 2. **Make recursive call(s)** - recursively solve smaller subproblems to help find the answer to the main problem. In the example above, `factorial(n-1)` is a call to solve the subproblem of `(n-1)!`.
 3. **Phrase overall answer in terms of subproblem answer(s)** - combine subproblem answers (the result of recursive calls) with any extra processing needed to pull out the final answer. In the example, multiplying the subproblem answer `factorial(n-1)` by `n` gives the final result.
 
-###Check for Understanding
+### Check for Understanding
 
 
 Here's pseudocode for calculating the Fibonacci sequence:
