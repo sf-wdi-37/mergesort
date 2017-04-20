@@ -141,13 +141,13 @@ Merge sort works on the basic principal of divide and conquer - dividing your li
 
 **Divide Into Sub-lists**
 
-<img width="912" alt="mergesort top half (splitting)" src="https://cloud.githubusercontent.com/assets/3254910/25205584/31029584-2518-11e7-81da-4f35869649dc.png">
+<img width="70%" alt="mergesort top half (splitting)" src="https://cloud.githubusercontent.com/assets/3254910/25205584/31029584-2518-11e7-81da-4f35869649dc.png">
 
 <sup><em>Merge Sort Visualization from University of Alberta</em></sup>
 
 **Merge To Build Sorted List**
 
-<img width="912" alt="mergesort bottom half (merging)" src="https://cloud.githubusercontent.com/assets/3254910/25205597/544543b6-2518-11e7-9504-bf67d66b9aa0.png">
+<img width="70%" alt="mergesort bottom half (merging)" src="https://cloud.githubusercontent.com/assets/3254910/25205597/544543b6-2518-11e7-9504-bf67d66b9aa0.png">
 
 <sup><em>Merge Sort Visualization from University of Alberta</em></sup>
 
@@ -166,11 +166,11 @@ To try to figure this out, let's try a few methods.
 
 1. On the graph below what are the realistic possibilities for the runtime of this algorithm?
 
-  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Comparison_computational_complexity.svg" alt="complexity" style="width: 300px;"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Comparison_computational_complexity.svg" alt="complexity" width="50%"/>
 
 2. How "tall" is the diagram below? That is, how many times do we divide and how many times do we "conquer"?
 
-  How "wide" is it? That is, how many steps are, roughly, there in each divide/conquer step?
+3. How "wide" is it? That is, how many steps are, roughly, there in each divide/conquer step?
 
   ![Merge Sort visualization](https://webdocs.cs.ualberta.ca/~holte/T26/Lecture6Fig6.gif)
 
